@@ -1,0 +1,13 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "rewrites": [
+    { "source": "/api/qwen/(.*)", "destination": "/api/qwen" },
+    { "source": "/api/stock/(.*)", "destination": "/api/stock" },
+    { "source": "/api/news", "destination": "/api/news" },
+    { "source": "/api/sec/(.*)", "destination": "/api/sec" },
+    { "source": "/api/sec-doc/(.*)", "destination": "/api/sec-doc" },
+    { "source": "/api/bitget/(.*)", "destination": "/api/bitget" }
+  ]
+}
